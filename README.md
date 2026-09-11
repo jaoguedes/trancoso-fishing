@@ -1,39 +1,8 @@
 # Trancoso Fishing
 
-## Arquivos principais
-- `index.html`
-- `style.css`
-- `script.js`
-- `assets/`
+Site institucional da **Trancoso Fishing**, com foco em pesca oceânica, pesca costeira e experiências em alto-mar.
 
-## Contato
-No `index.html`, procure por:
+## Links
 
-- `SEU_EMAIL_AQUI`
-- `@seuinstagram`
-
-e substitua pelos dados reais.
-
-Exemplo:
-```html
-href="mailto:contato@exemplo.com"
-```
-
-Instagram:
-```html
-href="https://instagram.com/nomedoperfil"
-```
-
-## Galeria
-As quatro fotos enviadas estão em `assets/` e aparecem na seção `#trabalho`.
-
-
-## Imagens em alta resolução
-O site foi atualizado para usar:
-- `assets/logo-hq.png`
-- `assets/pesca-oceanica-hq.jpg`
-- `assets/pesca-costeira-hq.jpg`
-- `assets/observacao-baleias-hq.jpg`
-
-Os cards agora são exibidos integralmente, sem corte automático.
-Os detalhes dos modais foram atualizados para corresponder às informações dos cards enviados.
+- **Site no Vercel:** https://trancoso-fishing.vercel.app/
+- **Design no Figma:** https://www.figma.com/design/jYTuYR4ttpG5EkURxw0GMU/Untitled?node-id=0-1&p=f&t=wrRohEa4dneMl3x2-0
