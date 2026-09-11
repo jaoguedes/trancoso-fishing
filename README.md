@@ -1,39 +1,34 @@
 # Trancoso Fishing
 
-## Arquivos principais
-- `index.html`
-- `style.css`
-- `script.js`
-- `assets/`
+Site institucional da **Trancoso Fishing**, desenvolvido para apresentar as operações, experiências em alto-mar e formas de contato da empresa.
 
-## Contato
-No `index.html`, procure por:
+## Links
 
-- `SEU_EMAIL_AQUI`
-- `@seuinstagram`
+- **Site:** https://trancoso-fishing.vercel.app/
+- **Figma:** https://www.figma.com/design/jYTuYR4ttpG5EkURxw0GMU/Untitled?node-id=0-1&p=f&t=wrRohEa4dneMl3x2-0
+- **Instagram:** https://www.instagram.com/trancosofishing/
 
-e substitua pelos dados reais.
+## Tecnologias
 
-Exemplo:
-```html
-href="mailto:contato@exemplo.com"
+- HTML5
+- CSS3
+- JavaScript
+
+## Funcionalidades
+
+- Layout responsivo para desktop e dispositivos móveis
+- Apresentação das operações de pesca
+- Galeria de fotos
+- Modal com informações das experiências
+- Contato por e-mail
+- Acesso direto ao Instagram
+
+## Estrutura
+
+```text
+trancoso-fishing/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
 ```
-
-Instagram:
-```html
-href="https://instagram.com/nomedoperfil"
-```
-
-## Galeria
-As quatro fotos enviadas estão em `assets/` e aparecem na seção `#trabalho`.
-
-
-## Imagens em alta resolução
-O site foi atualizado para usar:
-- `assets/logo-hq.png`
-- `assets/pesca-oceanica-hq.jpg`
-- `assets/pesca-costeira-hq.jpg`
-- `assets/observacao-baleias-hq.jpg`
-
-Os cards agora são exibidos integralmente, sem corte automático.
-Os detalhes dos modais foram atualizados para corresponder às informações dos cards enviados.

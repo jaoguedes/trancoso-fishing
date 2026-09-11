@@ -45,8 +45,6 @@ img {
   margin: 0 auto;
 }
 
-/* HEADER */
-
 .topbar {
   position: sticky;
   top: 0;
@@ -114,8 +112,6 @@ img {
 .mobile-nav {
   display: none;
 }
-
-/* HERO */
 
 .hero {
   width: 100%;
@@ -220,8 +216,6 @@ img {
   display: block;
 }
 
-/* OPERATIONS */
-
 .operations {
   width: 100%;
   padding: 100px 0 115px;
@@ -305,8 +299,6 @@ img {
   margin-left: 5px;
 }
 
-/* WORK / GALLERY */
-
 .work-section {
   padding: 105px 0 115px;
   background: #102f38;
@@ -334,7 +326,6 @@ img {
   line-height: 1.7;
 }
 
-/* Galeria equilibrada: 2x2 no desktop */
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -405,7 +396,6 @@ img {
   filter: brightness(.92);
 }
 
-/* Ajustes de enquadramento para as fotos mais verticais */
 .gallery-item:nth-child(1) img {
   object-position: center 58%;
 }
@@ -421,8 +411,6 @@ img {
 .gallery-item:nth-child(4) img {
   object-position: center 42%;
 }
-
-/* CONTACT */
 
 .contact-section {
   padding: 105px 0;
@@ -498,8 +486,6 @@ img {
   font-size: 22px;
 }
 
-/* FOOTER */
-
 .footer {
   padding: 34px 0;
   background: #151515;
@@ -528,8 +514,6 @@ img {
 .footer-content > span {
   justify-self: end;
 }
-
-/* OPERATION MODAL */
 
 .modal {
   width: min(92vw, 460px);
@@ -593,8 +577,6 @@ img {
   cursor: pointer;
 }
 
-/* GALLERY MODAL */
-
 .gallery-modal {
   width: min(92vw, 1000px);
   max-height: 90vh;
@@ -612,8 +594,6 @@ img {
   max-height: 88vh;
   object-fit: contain;
 }
-
-/* TABLET */
 
 @media (max-width: 950px) {
   .desktop-nav {
@@ -637,8 +617,6 @@ img {
     gap: 50px;
   }
 }
-
-/* MOBILE */
 
 @media (max-width: 760px) {
   .container {

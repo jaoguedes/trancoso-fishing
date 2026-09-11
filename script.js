@@ -47,7 +47,6 @@ const operations = {
   }
 };
 
-// Modal das operações
 const modal = document.getElementById("operationModal");
 const title = document.getElementById("modalTitle");
 const description = document.getElementById("modalDescription");
@@ -85,7 +84,6 @@ modal.addEventListener("click", (event) => {
   if (outside) modal.close();
 });
 
-// Menu mobile
 const menuButton = document.getElementById("menuButton");
 const mobileNav = document.getElementById("mobileNav");
 
@@ -101,7 +99,6 @@ mobileNav.querySelectorAll("a").forEach((link) => {
   });
 });
 
-// Galeria / lightbox
 const galleryModal = document.getElementById("galleryModal");
 const galleryImage = document.getElementById("galleryModalImage");
 const galleryClose = document.getElementById("galleryClose");
@@ -129,6 +126,4 @@ galleryModal.addEventListener("click", (event) => {
   if (outside) galleryModal.close();
 });
 
-// Ano automático do rodapé
 document.getElementById("year").textContent = new Date().getFullYear();
-
