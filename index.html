@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Trancoso Fishing - pesca oceânica, experiências exclusivas e alta gastronomia em alto-mar."
+  />
+  <title>Trancoso Fishing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="container header-content">
+      <a class="brand" href="#inicio">trancoso fishing</a>
+
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#sobre">Quem somos</a>
+        <a href="#operacoes">Operações</a>
+        <a href="#trabalho">Nosso trabalho</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegação mobile">
+      <a href="#sobre">Quem somos</a>
+      <a href="#operacoes">Operações</a>
+      <a href="#trabalho">Nosso trabalho</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <section class="hero" id="sobre">
+      <div class="container hero-content">
+
+        <div class="hero-copy">
+          <p class="eyebrow">QUEM SOMOS?</p>
+
+          <h1>Trancoso por outro ângulo</h1>
+
+          <div class="hero-text">
+            <p>Amigos que se juntaram para fazer o que gostam.</p>
+
+            <p>
+              Existe um outro Trancoso, além das praias e do Quadrado.
+              Um Trancoso de mar aberto, grandes peixes e experiências para poucos.
+            </p>
+
+            <p>
+              A Trancoso Fishing nasceu da paixão pela pesca, pelo oceano
+              e pela vontade de mostrar a região por um novo ângulo.
+            </p>
+
+            <p>
+              Estamos desenvolvendo uma operação de pesca oceânica focada
+              nos grandes predadores do litoral, unindo pescaria e alta
+              gastronomia em alto-mar.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a class="hero-button primary" href="#operacoes">Conheça as operações</a>
+            <a class="hero-button" href="#trabalho">Ver nosso trabalho</a>
+          </div>
+        </div>
+
+        <div class="logo-wrap">
+          <img src="assets/logo-hq.png" alt="Logo Trancoso Fishing" class="logo" />
+        </div>
+
+      </div>
+    </section>
+
+    <section class="operations" id="operacoes">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">TRANCOSO FISHING</p>
+          <h2>OPERAÇÕES</h2>
+          <p>Experiências pensadas para viver o mar de Trancoso de verdade.</p>
+        </div>
+
+        <div class="cards">
+
+          <article class="operation-card">
+            <button class="card-image-button" type="button" data-operation="oceanica">
+              <img src="assets/pesca-oceanica-hq.jpg" alt="Pesca Oceânica" />
+            </button>
+            <div class="card-footer">
+              <h3>Pesca Oceânica</h3>
+              <button class="more-link" type="button" data-operation="oceanica">
+                saber mais <span>→</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="operation-card">
+            <button class="card-image-button" type="button" data-operation="costeira">
+              <img src="assets/pesca-costeira-hq.jpg" alt="Pesca Costeira" />
+            </button>
+            <div class="card-footer">
+              <h3>Pesca Costeira</h3>
+              <button class="more-link" type="button" data-operation="costeira">
+                saber mais <span>→</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="operation-card">
+            <button class="card-image-button" type="button" data-operation="baleias">
+              <img src="assets/observacao-baleias-hq.jpg" alt="Observação de Baleias" />
+            </button>
+            <div class="card-footer">
+              <h3>Observação de Baleias</h3>
+              <button class="more-link" type="button" data-operation="baleias">
+                saber mais <span>→</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="work-section" id="trabalho">
+      <div class="container">
+        <div class="work-heading">
+          <div>
+            <p class="section-kicker">NA PRÁTICA</p>
+            <h2>Nosso trabalho</h2>
+          </div>
+
+          <p>
+            Mar aberto, grandes peixes, equipe reunida e gastronomia a bordo.
+            Um pouco do que acontece em cada experiência.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <button class="gallery-item gallery-item--tall" type="button"
+                  data-gallery="assets/trabalho-gastronomia.jpg"
+                  aria-label="Abrir foto de gastronomia em alto-mar">
+            <img
+              src="assets/trabalho-gastronomia.jpg"
+              alt="Preparação de peixe durante experiência em alto-mar"
+              loading="lazy"
+            />
+            <span>Alta gastronomia em alto-mar</span>
+          </button>
+
+          <button class="gallery-item" type="button"
+                  data-gallery="assets/trabalho-pescaria-dupla.jpg"
+                  aria-label="Abrir foto de pescaria">
+            <img
+              src="assets/trabalho-pescaria-dupla.jpg"
+              alt="Dois pescadores exibindo peixes capturados no mar"
+              loading="lazy"
+            />
+            <span>Pesca esportiva</span>
+          </button>
+
+          <button class="gallery-item" type="button"
+                  data-gallery="assets/trabalho-pescaria-grupo.jpg"
+                  aria-label="Abrir foto de pescaria em grupo">
+            <img
+              src="assets/trabalho-pescaria-grupo.jpg"
+              alt="Grupo reunido no barco após pescaria em alto-mar"
+              loading="lazy"
+            />
+            <span>Experiências para poucos</span>
+          </button>
+
+          <button class="gallery-item gallery-item--wide" type="button"
+                  data-gallery="assets/trabalho-equipe.jpg"
+                  aria-label="Abrir foto da equipe">
+            <img
+              src="assets/trabalho-equipe.jpg"
+              alt="Equipe da pescaria reunida em uma embarcação"
+              loading="lazy"
+            />
+            <span>Equipe e estrutura</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="section-kicker">FALE COM A GENTE</p>
+          <h2>Pronto para conhecer outro Trancoso?</h2>
+          <p>
+            Entre em contato para saber mais sobre as operações,
+            disponibilidade e próximas experiências.
+          </p>
+        </div>
+
+        <div class="contact-links">
+          <!-- TROQUE O E-MAIL ABAIXO PELO E-MAIL REAL -->
+          <a class="contact-card" href="mailto:Trancosofishing@gmail.com?subject=Contato%20pelo%20site%20Trancoso%20Fishing&body=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20as%20opera%C3%A7%C3%B5es%20da%20Trancoso%20Fishing.">
+            <span class="contact-label">E-mail</span>
+            <strong>Trancosofishing@gmail.com</strong>
+            <span class="contact-arrow">↗</span>
+          </a>
+
+          <!-- TROQUE O LINK E O @ ABAIXO PELO INSTAGRAM REAL -->
+          <a
+            class="contact-card"
+            href="https://www.instagram.com/trancosofishing/"
+            target="_blank"
+            rel="noopener noreferrer"
+            id="instagramLink"
+          >
+            <span class="contact-label">Instagram</span>
+            <strong>@trancosofishing</strong>
+            <span class="contact-arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="brand footer-brand" href="#inicio">trancoso fishing</a>
+      <p>Pesca, oceano e experiências em Trancoso.</p>
+      <span>© <span id="year"></span> Trancoso Fishing</span>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="operationModal">
+    <button class="close-modal" id="closeModal" type="button" aria-label="Fechar">×</button>
+
+    <div class="modal-content">
+      <p class="modal-kicker">TRANCOSO FISHING</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-info" id="modalInfo"></div>
+    </div>
+  </dialog>
+
+  <dialog class="gallery-modal" id="galleryModal">
+    <button class="gallery-close" id="galleryClose" type="button" aria-label="Fechar foto">×</button>
+    <img id="galleryModalImage" src="" alt="" />
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
